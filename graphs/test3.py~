@@ -1,0 +1,12 @@
+import networkx as nx
+import os
+
+for f in os.listdir('.'):
+	try:
+		G = nx.read_graphml(f)
+		if G.number_of_nodes() < 20:
+		print f
+	except:
+		continue
+	
+
