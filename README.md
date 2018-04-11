@@ -16,12 +16,16 @@
 * mkdir -p /etc/systemd/system/docker.service.d
 * sudo gedit /etc/systemd/system/docker.service.d/http-proxy.conf
 * Enter following in file:<br>
+```
 **[Service]<br>
 Environment="HTTP_PROXY=http://edcguest:edcguest@172.31.52.51:3128/"**
+```
 * sudo gedit /etc/systemd/system/docker.service.d/https-proxy.conf
 * Enter following in file:<br>
+```
 **[Service]<br>
 Environment="HTTPS_PROXY=https://edcguest:edcguest@172.31.52.51:3128/"**
+```
 * sudo systemctl daemon-reload
 * sudo systemctl restart docker
 * open new terminal and verify that proxy is set by typing <br> *sudo systemctl show --property=Environment docker*
