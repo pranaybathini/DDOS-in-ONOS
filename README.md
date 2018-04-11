@@ -54,7 +54,7 @@ Environment="HTTPS_PROXY=https://edcguest:edcguest@172.31.52.51:3128/"
 * app activate org.onosproject.openflow
 * app activate org.onosproject.fwd
 ## Accessing the GUI 
-* Go to **http://172.17.0.2:8181/onos/ui/index.html**
+* Go to http://172.17.0.2:8181/onos/ui/index.html
 * username : **onos**
 * password : **rocks**
 ## Wiping out ONOS
