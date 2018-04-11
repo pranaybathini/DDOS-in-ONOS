@@ -41,9 +41,9 @@ Environment="HTTPS_PROXY=https://edcguest:edcguest@172.31.52.51:3128/"
 * sudo pip install paramiko
 
 ## Running onos instances
-**sudo docker run -t -d --name onos1 onosproject/onos:1.11.1**<br>
- **sudo docker run -t -d --name onos2 onosproject/onos:1.11.1**<br>
-**sudo docker run -t -d --name onos3 onosproject/onos:1.11.1**<br>
+* sudo docker run -t -d --name onos1 onosproject/onos:1.11.1<br>
+ * sudo docker run -t -d --name onos2 onosproject/onos:1.11.1<br>
+* sudo docker run -t -d --name onos3 onosproject/onos:1.11.1<br>
 ## Docker IPs
 * 172.17.0.2
 * 172.17.0.3 and so on (based on number of instances)
