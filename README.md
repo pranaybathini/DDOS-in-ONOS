@@ -88,6 +88,6 @@ sudo ping -f -s 65500 <Target IP>
 ```
 ## Other contributors
 * [Chaitanya kumar](https://github.com/Jackson2398)
-* [Aditya Choudary](http://github.com/adityachd123)
-* [Kapil Dev](https://www.google.com)
+* [Aditya Choudary](https://github.com/adityachd123)
+* [Kapil Dev](https://github.com/kapilDev1)
 * [Ayushi Sharma](https://www.google.com)
