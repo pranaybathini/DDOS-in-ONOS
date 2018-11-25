@@ -7,7 +7,7 @@ from mininet.node import Controller, RemoteController
 from mininet.cli import CLI
 from mininet.log import setLogLevel
 
-
+#starting mininet
 def start_mininet(graph, n_ctrl):
 
 	#Initialisation
