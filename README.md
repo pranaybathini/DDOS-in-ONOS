@@ -93,7 +93,7 @@ sudo hping3 -1 --flood -a <Victim IP> <Broadcast IP>
 ### SFlow-RT
 sFlow-RT is a network monitoring tool delivering real-time visibility to Software
 Defned Networking (SDN).It gives us all the real time analytics about the current
-state of out network.You can download it from [here](https://sflow-rt.com/). 
+state of out network.You can download it from [here](https://sflow-rt.com/). We used this tool for collection of packet flow statistics to make a dataset of our own. Further it can be used for live detection of DDOS Attacks as it provides real-time visibility of traffic in the ONOS controller and its nodes.
 ## Other contributors
 * [Chaitanya kumar](https://github.com/ckumar2398)
 * [Aditya Choudary](https://github.com/adityachd123)
