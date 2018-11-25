@@ -1,4 +1,5 @@
 # Description : SYN Flood Packet creation for iptables prevention solution
+# TCP SYN using scapy
 import sys
 from scapy.all import *
 #conf.verb=0
